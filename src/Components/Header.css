@@ -1,0 +1,91 @@
+.header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: #252526;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0 0 0px 4px #3a3a3b;
+}
+
+.header__left {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    background-color: #3a3b3c;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+.header__left > img {
+    height: 40px
+}
+
+.header__input > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header__center {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header__option > .MuiSvgIcon-root {
+    color: gray;
+}
+
+.header__option:hover > .MuiSvgIcon-root {
+    color: #2e81f4;
+}
+
+.header__option--active {
+    color: #2e81f4;
+}
+
+.header__option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header__option:hover {
+    background-color: #a9aaae;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+}
+
+.header__info > h4 {
+    margin-left: 10px;
+    color: #a9aaae;
+}
+
+.header__info--avtive{
+    color: #2e81f4;
+}
+
+.header__right {
+    display: flex;
+    width: 25%;
+}
+
+
+
+
+
